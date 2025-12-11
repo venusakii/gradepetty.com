@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   title: "GradePetty — The Future of Pet Care is Conscious",
   description: "Smart. Sustainable. Stunning. Redefining pet care through design, science, and conscience.",
   keywords: ["eco-friendly pet care", "sustainable pet products", "organic pet food", "biodegradable pet toys"],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32x32.jpg", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.jpg",
+  },
     generator: 'v0.app'
 }
 
